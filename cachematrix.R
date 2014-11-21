@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## R Programming (rprog-009) Assignment 2
 
-## This function creates a special "matrix" object that can cache its inverse
+## This function creates a special "matrix" object that can cache its inverse. It is similar to the provided function makeVector which returns a vector.
 makeCacheMatrix <- function(x = matrix()) {
     		# sets x equal to an empty matrix
         inv <- NULL
@@ -23,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function computes the inverse of the special "matrix" returned by makeCacheMatrix above. 
+## This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.  It is similar ro the provided function cachemean which computes the mean.
 ## If the inverse has already been calculated (and the matrix has not changed), then the cachesolve should retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
